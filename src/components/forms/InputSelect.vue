@@ -8,16 +8,18 @@ use props to get data into this component dynamically.
 <template>
   <div class="w-full">
     <label
-      class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+      class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2"
       for="grid-state"
     >
       {{ label }}
     </label>
     <div class="relative">
       <select
-        class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+        class="block appearance-none w-full bg-grey-lighter border border-grey-lighter text-grey-darker py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-grey"
         id="grid-state"
+        @input="$emit('onSelect', $event.target.value)"
       >
+        <option value="null">-- Choose Location --</option>
         <option
           v-for="(option, index) in options"
           :key="index"
@@ -27,7 +29,7 @@ use props to get data into this component dynamically.
         </option>
       </select>
       <div
-        class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"
+        class="pointer-events-none absolute pin-y pin-r flex items-center px-2 text-grey-darker"
       >
         <svg
           class="fill-current h-4 w-4"
