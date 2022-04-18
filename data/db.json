@@ -1,0 +1,218 @@
+{
+  "vehicles": [
+    {
+      "registration_number": "RV64 PAG",
+      "category": "Small car",
+      "make": "Honda",
+      "model": "Jazz",
+      "fuel_type": "petrol",
+      "price_per_day": "£25"
+    },
+    {
+      "registration_number": "FA57 MRK",
+      "category": "Small car",
+      "make": "VW",
+      "model": "Polo",
+      "fuel_type": "petrol",
+      "price_per_day": "£25"
+    },
+    {
+      "registration_number": "RAY 5WC",
+      "category": "Small car",
+      "make": "Toyata",
+      "model": "Yaris",
+      "fuel_type": "diesel",
+      "price_per_day": "£25"
+    },
+    {
+      "registration_number": "BJS 44",
+      "category": "Small car",
+      "make": "Toyata",
+      "model": "Yaris",
+      "fuel_type": "diesel",
+      "price_per_day": "£25"
+    },
+    {
+      "registration_number": "VII AHB",
+      "category": "Estate car",
+      "make": "Ford",
+      "model": "Galaxy",
+      "fuel_type": "petrol",
+      "price_per_day": "£35"
+    },
+    {
+      "registration_number": "MA07 CAN",
+      "category": "Estate car",
+      "make": "Kia",
+      "model": "ProCeed",
+      "fuel_type": "petrol",
+      "price_per_day": "£35"
+    },
+    {
+      "registration_number": "FA57 MRK",
+      "category": "Estate car",
+      "make": "Audi",
+      "model": "A3",
+      "fuel_type": "diesel",
+      "price_per_day": "£35"
+    },
+    {
+      "registration_number": "BI FOB",
+      "category": "Estate car",
+      "make": "Audi",
+      "model": "A3",
+      "fuel_type": "diesel",
+      "price_per_day": "£35"
+    },
+    {
+      "registration_number": "T666 SLA",
+      "category": "Vans",
+      "make": "Vauxhall",
+      "model": "Combo",
+      "fuel_type": "petrol",
+      "price_per_day": "£50"
+    },
+    {
+      "registration_number": "Y26 ABY",
+      "category": "Vans",
+      "make": "Nissan",
+      "model": "NV200",
+      "fuel_type": "petrol",
+      "price_per_day": "£50"
+    },
+    {
+      "registration_number": "HA22 YYX",
+      "category": "Vans",
+      "make": "Fiat",
+      "model": "Fiorino",
+      "fuel_type": "diesel",
+      "price_per_day": "£50"
+    },
+    {
+      "registration_number": "HC63 AMG",
+      "category": "Vans",
+      "make": "Fiat",
+      "model": "Fiorino",
+      "fuel_type": "diesel",
+      "price_per_day": "£50"
+    }
+  ],
+  "available_vehicles": [
+    {
+      "registration_number": "RV64 PAG",
+      "category": "Small car",
+      "make": "Honda",
+      "model": "Jazz",
+      "fuel_type": "petrol",
+      "price_per_day": "£25"
+    },
+    {
+      "registration_number": "RAY 5WC",
+      "category": "Small car",
+      "make": "Toyata",
+      "model": "Yaris",
+      "fuel_type": "diesel",
+      "price_per_day": "£25"
+    },
+    {
+      "registration_number": "BJS 44",
+      "category": "Small car",
+      "make": "Toyata",
+      "model": "Yaris",
+      "fuel_type": "diesel",
+      "price_per_day": "£25"
+    },
+    {
+      "registration_number": "VII AHB",
+      "category": "Estate car",
+      "make": "Ford",
+      "model": "Galaxy",
+      "fuel_type": "petrol",
+      "price_per_day": "£35"
+    },
+
+    {
+      "registration_number": "FA57 MRK",
+      "category": "Estate car",
+      "make": "Audi",
+      "model": "A3",
+      "fuel_type": "diesel",
+      "price_per_day": "£35"
+    },
+    {
+      "registration_number": "BI FOB",
+      "category": "Estate car",
+      "make": "Audi",
+      "model": "A3",
+      "fuel_type": "diesel",
+      "price_per_day": "£35"
+    },
+    {
+      "registration_number": "T666 SLA",
+      "category": "Vans",
+      "make": "Vauxhall",
+      "model": "Combo",
+      "fuel_type": "petrol",
+      "price_per_day": "£50"
+    },
+    {
+      "registration_number": "HA22 YYX",
+      "category": "Vans",
+      "make": "Fiat",
+      "model": "Fiorino",
+      "fuel_type": "diesel",
+      "price_per_day": "£50"
+    },
+    {
+      "registration_number": "HC63 AMG",
+      "category": "Vans",
+      "make": "Fiat",
+      "model": "Fiorino",
+      "fuel_type": "diesel",
+      "price_per_day": "£50"
+    }
+  ],
+  "hired_vehicles": [
+    {
+      "registration_number": "T666 SLA",
+      "category": "Vans",
+      "make": "Vauxhall",
+      "model": "Combo",
+      "fuel_type": "petrol",
+      "price_per_day": "£50"
+    },
+    {
+      "registration_number": "HA22 YYX",
+      "category": "Vans",
+      "make": "Fiat",
+      "model": "Fiorino",
+      "fuel_type": "diesel",
+      "price_per_day": "£50"
+    },
+    {
+      "registration_number": "HC63 AMG",
+      "category": "Vans",
+      "make": "Fiat",
+      "model": "Fiorino",
+      "fuel_type": "diesel",
+      "price_per_day": "£50"
+    }
+  ],
+  "cost_calc": [
+    {
+      "registration_number": "RV64 PAG",
+      "total_hire_cost": "£75",
+      "start_date": "14-07-2022",
+      "end_date": "17-07-2022"
+    }
+  ],
+  "booking": [
+    {
+      "registration_number": "RV64 PAG",
+      "customer_id": 12345,
+      "total_hire_cost": "£75",
+      "start_date": "14-07-2022",
+      "end_date": "17-07-2022"
+    }
+  ]
+}
